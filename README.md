@@ -39,11 +39,31 @@ We then assigned scores to each metric:
 - By concatenating these scores, we created a combined RFM score for each customer.
 
 ### Visualization 
+Distribution of RFM Metrics
+We began by visualizing the distribution of the three key metrics: Recency, Frequency, and Monetary. This helps in understanding the spread and concentration of these values across the customer base.
 
+![image](https://github.com/tcongnguyen123/RFM-Analysis-in-Python/assets/116703297/b65240a5-548e-4f7f-93f0-8068ee479822)
 
-### Insights and Actionable Strategies
-- Focus on Champions: These customers are the most valuable. Personalized offers and exclusive rewards can help in retaining them.
-- Nurture Loyal Customers: Encourage repeat purchases through loyalty programs and personalized communication.
-- Convert Potential Loyalists: Identify what can make them regular buyers. Targeted promotions and tailored content could be effective.
-- Re-engage At Risk Customers: Understand why these customers have not made recent purchases and use win-back campaigns to regain their interest.
-- Revive Lost Customers: Special offers or reactivation campaigns might bring them back.
+Customer Count by Segment
+We used a treemap to visualize the proportion of customers in each segment. This helps in identifying which segments constitute the largest and smallest parts of the customer base.
+![image](https://github.com/tcongnguyen123/RFM-Analysis-in-Python/assets/116703297/7535fa09-bfa3-4e05-9d21-ac643055fb52)
+
+Total Sales by Segment
+Next, we visualized the total sales contributed by each segment, highlighting the monetary value each segment brings to the business.
+![image](https://github.com/tcongnguyen123/RFM-Analysis-in-Python/assets/116703297/25309e70-14c8-4d27-bf19-9f78acf75a56)
+
+### Definition and recommended action for each customer segment:
+
+| Segment | Characteristics | Recommendation |
+| :-: | :-: | :-: |
+| Champions | Bought recently, buy often and spend the most! | Reward them. Can be early adopters for new products. Will promote your brand. |
+| Loyal | Spend good money with us often. Responsive to promotions. | Upsell higher value products. Ask for reviews. Engage them. |
+| Potential Loyalist | Recent customers, but spent a good amount and bought more than once. | Offer membership / loyalty program, recommend other products. |
+| New customers | Bought most recently, but not often. | Provide on-boarding support, give them early success, start building relationship. |
+| Promising | Recent shoppers, but haven’t spent much. | Create brand awareness, offer free trials |
+| Need attention | Above average recency, frequency and monetary values. May not have bought very recently though. | Make limited time offers, Recommend based on past purchases. Reactivate them. |
+| About to sleep | Below average recency, frequency and monetary values. Will lose them if not reactivated. | Share valuable resources, recommend popular products / renewals at discount, reconnect with them. |
+| At risk | Spent big money and purchased often. But long time ago. Need to bring them back! | Send personalized emails to reconnect, offer renewals, provide helpful resources. |
+| Cannot lose them | Made biggest purchases, and often. But haven’t returned for a long time. | Win them back via renewals or newer products, don’t lose them to competition, talk to them. |
+| Hibernating customers | Last purchase was long back, low spenders and low number of orders. | Offer other relevant products and special discounts. Recreate brand value. |
+| Lost customers | Lowest recency, frequency and monetary scores. | Revive interest with reach out campaign, ignore otherwise. |
